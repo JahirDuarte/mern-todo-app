@@ -3,6 +3,7 @@ node_modules/
 
 # Vite build output (solo para React)
 frontend/dist/
+frontend/node_modules/
 
 # Cache (solo para React)
 frontend/.cache/

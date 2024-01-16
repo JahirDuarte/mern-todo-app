@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Create from './Create'
+import axios from 'axios'
 
 function Home() {
     const [todos, setTodos] = useState([])
-
+    
     return (
         <div className='home'>
             <h2>Todo List</h2>
