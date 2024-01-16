@@ -1,0 +1,22 @@
+# Node.js (común para ambos)
+node_modules/
+
+# Vite build output (solo para React)
+frontend/dist/
+
+# Cache (solo para React)
+frontend/.cache/
+
+# Editor directories and files (común para ambos)
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Archivos específicos para Express (puedes ajustar según tus necesidades)
+backend/node_modules/
+backend/.env
