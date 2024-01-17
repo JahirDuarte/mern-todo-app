@@ -1,0 +1,15 @@
+{
+    "name": "mern-todo-app",
+    "version": "1.0.0",
+    "main": "backend/index.js",
+    "scripts": {
+        "start": "npm-run-all --parallel start-backend start-frontend",
+        "start-backend": "cd backend && npm start",
+        "start-frontend": "cd frontend && npm run dev",
+        "build-frontend": "cd frontend && npm run build",
+        "lint-frontend": "cd frontend && npm run lint",
+        "preview-frontend": "cd frontend && npm run preview",
+        "lint": "npm-run-all lint-backend lint-frontend",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
